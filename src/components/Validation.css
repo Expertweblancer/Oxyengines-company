@@ -1,0 +1,23 @@
+form input {
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    padding: 5px 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  .error { border: 1px solid red!important; }
+  form button:hover {
+    background-color: #669509;
+  }
+  
+  form button:disabled {
+    background-color: #dbf99f;
+    color: #333;
+  }
+  
+  form button:disabled:hover {
+      cursor: none;
+     color: #333;
+  }
